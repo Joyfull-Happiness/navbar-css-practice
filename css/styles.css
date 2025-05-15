@@ -8,12 +8,7 @@ body {
   gap: 1rem;
   text-transform: uppercase;
 }
-img {
-  height: 400px;
-  width: auto;
-  align-items: center;
-  margin: 1rem;
-}
+
 header {
   text-align: center;
   margin: 1rem;
@@ -64,11 +59,23 @@ main a {
   width: fit-content;
 }
 
+img {
+  height: 400px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border: 1rem solid #fed32f;
+  border-radius: 0.25rem;
+}
 button {
   background-color: #fed32f;
   color: black;
   font-weight: 900;
   padding: 2rem;
+  margin: 1rem;
   border: none;
   border-radius: 0.25rem;
   text-align: center;
