@@ -67,6 +67,7 @@ img {
   text-align: center;
   display: block;
   margin: 0 auto;
+  padding: 1rem;
   border: 1rem solid #fed32f;
   border-radius: 0.25rem;
 }
@@ -83,8 +84,11 @@ button {
   display: inline-block;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   img {
-    width: fit-content;
+    display: block;
+    margin: 0;
+    height: 300px;
+    width: auto;
   }
 }
